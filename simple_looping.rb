@@ -39,10 +39,11 @@ end
 
 def for_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  counter = 1..7
+  counter = 1..number_of_times
+  ## what do I do to convert number_of_times into a range
   for count in counter
     puts phrase
   end
 end
-
+# why do I need this last end?
 end
